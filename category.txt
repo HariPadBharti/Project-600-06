@@ -13,6 +13,7 @@ movie
 action-sequence
 character
 SFX
+characterization
 special-effects
 tale
 theme
@@ -21,7 +22,6 @@ picture
 dialogue
 set
 music
-characterization
 color
 image
 background
