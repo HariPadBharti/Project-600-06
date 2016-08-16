@@ -6,7 +6,7 @@ Movie's info extracted till December 2016 that will help learn more deeper at th
 
 12th July : Opinion and Category added. Need to be reviewed. Data cleaning process in progress.
 
-
+August 16th 2pm meeting !Reminder!
 
 
 
