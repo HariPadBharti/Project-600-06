@@ -8,7 +8,10 @@ Movie's info extracted till December 2016 that will help learn more deeper at th
 
 August 16th : Third Meeting
 
+August 26th : Introduction to vector Model and comment sampling.
+
 Full workpath decided on project advancement.
+
 
 
 
