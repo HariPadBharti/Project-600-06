@@ -1,0 +1,174 @@
+<!DOCTYPE HTML>  
+<html>
+<head>
+<style>
+.error {color: #FF0000;}
+</style>
+</head>
+<body>  
+
+<?php
+$nameErr = $emailErr = $genderErr = $websiteErr = "";
+$name = $email = $gender = $comment = $website = "";
+
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+  if (empty($_POST["name"])) {
+    $nameErr = "Name is required";
+  } else {
+    $name = test_input($_POST["name"]);
+    // check if name only contains letters and whitespace
+    if (!preg_match("/^[a-zA-Z ]*$/",$name)) {
+      $nameErr = "Only letters and white space allowed"; 
+    }
+  }
+  
+  if (empty($_POST["email"])) {
+    $emailErr = "Email is required";
+  } else {
+    $email = test_input($_POST["email"]);
+    // check if e-mail address is well-formed
+    if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
+      $emailErr = "Invalid email format"; 
+    }
+  }
+    
+  if (empty($_POST["website"])) {
+    $website = "";
+  } else {
+    $website = test_input($_POST["website"]);
+    // check if URL address syntax is valid (this regular expression also allows dashes in the URL)
+    if (!preg_match("/\b(?:(?:https?|ftp):\/\/|www\.)[-a-z0-9+&@#\/%?=~_|!:,.;]*[-a-z0-9+&@#\/%=~_|]/i",$website)) {
+      $websiteErr = "Invalid URL"; 
+    }
+  }
+
+  if (empty($_POST["comment"])) {
+    $comment = "";
+  } else {
+    $comment = test_input($_POST["comment"]);
+  }
+
+  if (empty($_POST["gender"])) {
+    $genderErr = "Gender is required";
+  } else {
+    $gender = test_input($_POST["gender"]);
+  }
+}
+
+function test_input($data) {
+  $data = trim($data);
+  $data = stripslashes($data);
+  $data = htmlspecialchars($data);
+  return $data;
+}
+?>
+
+<h2>Movie Recommendation System</h2>
+<h3>Please fill below form to proceed further</h3>
+
+<p><span class="error">* required field.</span></p>
+<form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">  
+  Name: <input type="text" name="name" value="<?php echo $name;?>">
+  <span class="error">* <?php echo $nameErr;?></span>
+  <br><br>
+  E-mail: <input type="text" name="email" value="<?php echo $email;?>">
+  <span class="error">* <?php echo $emailErr;?></span>
+  <br><br>
+  Website: <input type="text" name="website" value="<?php echo $website;?>">
+  <span class="error"><?php echo $websiteErr;?></span>
+  <br><br>
+  Comment: <textarea name="comment" rows="1" cols="40"><?php echo $comment;?></textarea>
+  <br><br>
+  Gender:
+  <input type="radio" name="gender" <?php if (isset($gender) && $gender=="female") echo "checked";?> value="female">Female
+  <input type="radio" name="gender" <?php if (isset($gender) && $gender=="male") echo "checked";?> value="male">Male
+  <span class="error">* <?php echo $genderErr;?></span>
+  <br><br>
+  List 10 movies you like the most :-
+  <br><br>
+  Movie1: <input type="text" name="M1" value="<?php echo $M1;?>">
+  <span class="error">* <?php echo $M1Err;?></span>
+  <br><br>
+  Movie2: <input type="text" name="M1" value="<?php echo $M2;?>">
+  <span class="error">* <?php echo $M2Err;?></span>
+  <br><br>
+  Movie3: <input type="text" name="M3" value="<?php echo $M3;?>">
+  <span class="error">* <?php echo $M3Err;?></span>
+  <br><br>
+  Movie4: <input type="text" name="M4" value="<?php echo $M4;?>">
+  <span class="error">* <?php echo $M4Err;?></span>
+  <br><br>
+  Movie5: <input type="text" name="M5" value="<?php echo $M5;?>">
+  <span class="error">* <?php echo $M5Err;?></span>
+  <br><br>
+  Movie6: <input type="text" name="M6" value="<?php echo $M6;?>">
+  <span class="error">* <?php echo $M6Err;?></span>
+  <br><br>
+  Movie7: <input type="text" name="M7" value="<?php echo $M7;?>">
+  <span class="error">* <?php echo $M7Err;?></span>
+  <br><br>
+  Movie8: <input type="text" name="M8" value="<?php echo $M8;?>">
+  <span class="error">* <?php echo $M8Err;?></span>
+  <br><br>
+  Movie9: <input type="text" name="M9" value="<?php echo $M9;?>">
+  <span class="error">* <?php echo $M9Err;?></span>
+  <br><br>
+  Movie10: <input type="text" name="M10" value="<?php echo $M10;?>">
+  <span class="error">* <?php echo $M10Err;?></span>
+  <br><br>
+
+  Input Best 5 actors :-
+  <br><br>
+  Actor1: <input type="text" name="Ac1" value="<?php echo $Ac1;?>">
+  <span class="error">* <?php echo $Ac2Err;?></span>
+  <br><br>
+  Actor2: <input type="text" name="Ac2" value="<?php echo $Ac2;?>">
+  <span class="error">* <?php echo $Ac2Err;?></span>
+  <br><br>
+  Actor3: <input type="text" name="Ac3" value="<?php echo $Ac3;?>">
+  <span class="error">* <?php echo $Ac3Err;?></span>
+  <br><br>
+  Actor4: <input type="text" name="Ac4" value="<?php echo $Ac4;?>">
+  <span class="error">* <?php echo $Ac4Err;?></span>
+  <br><br>
+  Actor5: <input type="text" name="Ac5" value="<?php echo $Ac5;?>">
+  <span class="error">* <?php echo $Ac5Err;?></span>
+  <br><br>
+
+  List 5 best Directors :-
+  <br><br>
+  Director1: <input type="text" name="D1" value="<?php echo $D1;?>">
+  <span class="error">* <?php echo $D1Err;?></span>
+  <br><br>
+  Director2: <input type="text" name="D2" value="<?php echo $D2;?>">
+  <span class="error">* <?php echo $D2Err;?></span>
+  <br><br>
+  Director3: <input type="text" name="D3" value="<?php echo $D3;?>">
+  <span class="error">* <?php echo $D3Err;?></span>
+  <br><br>
+  Director4: <input type="text" name="D4" value="<?php echo $D4;?>">
+  <span class="error">* <?php echo $D4Err;?></span>
+  <br><br>
+  Director5: <input type="text" name="D5" value="<?php echo $D5;?>">
+  <span class="error">* <?php echo $D5Err;?></span>
+  <br><br>
+
+
+  <input type="submit" name="submit" value="Submit">  
+</form>
+
+<?php
+echo "<h2>Your Input:</h2>";
+echo $name;
+echo "<br>";
+echo $email;
+echo "<br>";
+echo $website;
+echo "<br>";
+echo $comment;
+echo "<br>";
+echo $gender;
+?>
+
+</body>
+</html>
