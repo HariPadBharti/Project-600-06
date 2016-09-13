@@ -18,4 +18,7 @@ Meeting: Sept 12th : 4pm
 
 Started working on PhP to store user input for analysis. XAMPP local server.
 
+Java Applet to be used to sample vectors using SOM algorithm rather than RAP.
+
+
 
