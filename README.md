@@ -20,5 +20,7 @@ Started working on PhP to store user input for analysis. XAMPP local server.
 
 Java Applet to be used to sample vectors using SOM algorithm rather than RAP.
 
-Meeting: 19th September
+Meeting: 19th September [\]
+
+
 
