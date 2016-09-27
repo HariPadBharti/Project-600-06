@@ -22,7 +22,9 @@ Java Applet to be used to sample vectors using SOM algorithm rather than RAP.
 
 Meeting: 19th September [Discussed about algorithms of Sampling like deep mining]
 
-Meeting: 26th September []
+Meeting: 26th September [Strategies to make a software that can apply SOM on data and get vectors]
+
+HW: Show Output for one such sentense.
 
 
 
