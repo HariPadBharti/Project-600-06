@@ -25,6 +25,8 @@ Meeting: 19th September [Discussed about algorithms of Sampling like deep mining
 Meeting: 26th September [Strategies to make a software that can apply SOM on data and get vectors]
 
 HW: Show Output for one such sentense.
+Meeting October 12th
 
+Meeting Scheduled: Monday 4pm 
 
 
