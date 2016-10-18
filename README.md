@@ -28,5 +28,6 @@ HW: Show Output for one such sentense.
 Meeting October 12th
 
 Meeting Scheduled: Monday 4pm 
+Rescheduled to Wednesday 2pm
 
 
