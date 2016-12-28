@@ -33,4 +33,5 @@ Rescheduled to Wednesday 2pm
 
 Scheduled meeting before thanksgiving. 
 
-timeline needed
+
+Deadline `23rd Jan`
