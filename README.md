@@ -35,4 +35,4 @@ Scheduled meeting before thanksgiving.
 Use of Sparks needed !!! - 9th Jan
 TWH
 
-Deadline `23rd Jan`
+Deadline 23rd Jan
