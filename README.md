@@ -32,7 +32,7 @@ Rescheduled to Wednesday 2pm
 24th October Meeting at 4pm
 
 Scheduled meeting before thanksgiving. 
-Use of Sparks needed !!! - 9th Jan
+Use of Sparks needed !!! - 9th Jan (optional)
 TWH
 
 Deadline 23rd Jan
