@@ -34,5 +34,6 @@ Rescheduled to Wednesday 2pm
 Scheduled meeting before thanksgiving. 
 Use of Sparks needed !!! - 9th Jan (optional)
 TWH
+Project discussions 26th Jan, 31st Jan
 
 `Deadline: `
