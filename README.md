@@ -35,5 +35,7 @@ Scheduled meeting before thanksgiving.
 Use of Sparks needed !!! - 9th Jan (optional)
 TWH
 Project discussions 26th Jan, 31st Jan
+
 Completion Date: February 2nd
+Project Report Submitted on 7th Feb 2017
 
