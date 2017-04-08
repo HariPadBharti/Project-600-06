@@ -1,7 +1,7 @@
-# Project-600-06
+### Project-600-06
 `Start Date: Project Acceptance on 22nd June 2016 at 10:45 am `
 
-## Time-Line 
+#### Time-Line 
 <p>
 28th June 2016 : Project Initial trial Data Set Prepared for analysis. Use of Import.io as open source web crawler to extract data from
 www.imdb.com <br>
