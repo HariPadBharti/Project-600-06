@@ -2,7 +2,7 @@
 `Start Date: Project Acceptance on 22nd June 2016 at 10:45 am `
 
 #### Project Time-Line 
-<p style="fontsize: 10px">
+<p>
 28th June 2016 : Project Initial trial Data Set Prepared for analysis. Use of Import.io as open source web crawler to extract data from
 www.imdb.com <br>
 
