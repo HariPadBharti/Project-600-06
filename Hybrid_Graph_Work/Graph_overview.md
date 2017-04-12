@@ -18,4 +18,4 @@ In this, we count the assiciation of one movie to multiple users, if thay rated 
 
 ### Movie - Actor Metapath
 
-In this, we check if the 
+
