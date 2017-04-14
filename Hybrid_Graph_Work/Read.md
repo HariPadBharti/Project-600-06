@@ -11,3 +11,4 @@ mergedata.ipynb : <a href="https://github.com/HariPadBharti/Recommendation_Syste
 
 ### Work on Merged Data
 
+Note User *--* Item *---* Movie relationship
