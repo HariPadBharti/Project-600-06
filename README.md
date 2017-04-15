@@ -39,7 +39,7 @@ Movie's info extracted till December 2016 that will help learn more deeper at th
  Use of Sparks needed !!! - 9th Jan (optional)
  TWH
  Project discussions 26th Jan, 31st Jan
-jj
+
 </p>
 
 <i>Completion Date: </i>February 2nd
