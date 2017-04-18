@@ -6,7 +6,7 @@
 <br>
 
 
-<I>As we have worked so far, with reference to the "Personalized Entity Recommendation - a Heterogeneous Information Network Approach", we  defined our metapaths based on users---- * Item * ------ Movie and finding path.  We define relationship and calculate weights for all possible paths in network and integrate to the user to give recommendations.   </I>
+<I>As we have worked so far, with reference to the "Personalized Entity Recommendation - a Heterogeneous Information Network Approach", we  defined our metapaths based on users---- * Item * ------ Movie and finding path since we are recommending movies to the users.  We define relationship and calculate weights for all possible paths in network and integrate to the user to give recommendations.   </I>
 
 
 
