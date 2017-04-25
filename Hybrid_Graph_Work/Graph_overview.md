@@ -18,6 +18,10 @@ In this, we count the assiciation of one movie to multiple users, if thay rated 
 Later discussion moved to the description of path calculation based on relation between movies. If suppose a user is associated with a movie, there is direct path. Now, we can find similar users as well as similar users giving similar ratings. We create a relation of polarity(score of rating) on each user and count the number of paths (Page rank algorithm) that gives a value to decide the relationship strength between users and movies. This path technique is contrary to the score technique as the calculation is on path meanwhile, the strength is on similarity that gives more accurate and logical result.
 
 ### Movie - Actor Metapath
-
+<p> As we have learned from the beginning that we are working on user *- item -* movie and Movie actor pass is one of them. We find similarity in users based on the actor and the correspomding movie. We may add features to add more likelyhood of  preferred recommendation like tags, plots and genre. We find movies by same actor and users liking an actor. Its the path count calculated in various ways:-
+<ol> Similar user like similar actor and corresonding movie</ol>
+<ol>Same Actor movies may be preferred by the same user</ol>
+<ol> </ol>
+</p>
 
 
