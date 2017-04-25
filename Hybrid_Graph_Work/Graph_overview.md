@@ -21,7 +21,7 @@ Later discussion moved to the description of path calculation based on relation 
 <p> As we have learned from the beginning that we are working on user *- item -* movie and Movie actor pass is one of them. We find similarity in users based on the actor and the correspomding movie. We may add features to add more likelyhood of  preferred recommendation like tags, plots and genre. We find movies by same actor and users liking an actor. Its the path count calculated in various ways:-
 <ol> Similar user like similar actor and corresonding movie</ol>
 <ol>Same Actor movies may be preferred by the same user</ol>
-<ol> </ol>
+<ol>For multiple actors in a movie, we count probabilistic path values that decide recommendations </ol>
 </p>
 
 
