@@ -24,4 +24,5 @@ Later discussion moved to the description of path calculation based on relation 
 <ol>For multiple actors in a movie, we count probabilistic path values that decide recommendations </ol>
 </p>
 
+Work on moviedb api to fetch postors also done.
 
